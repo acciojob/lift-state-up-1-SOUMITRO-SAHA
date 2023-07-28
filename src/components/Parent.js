@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Parent = () => {
 	const [showModal, setShowModal] = useState(false);
 	return (
-		<div>
+		<div className='parent'>
 			<h1>Parent Component</h1>
 			<h3>Child Component</h3>
 			<button onClick={() => setShowModal((prev) => !prev)}>Show MOdal</button>
